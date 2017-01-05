@@ -1,0 +1,11 @@
+language: go
+go_import_path: jrubin.io/zb
+go:
+  - 1.6.4
+  - 1.7.4
+  - tip
+script:
+  go get -v
+  go build
+  go test
+  
